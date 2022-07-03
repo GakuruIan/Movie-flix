@@ -1,4 +1,4 @@
-// const API_KEY = "ba7d84e71e73b2db36ea6c6f63a54c2d";
+
 const API_KEY=process.env.REACT_APP_API_KEY;
 const request={
     FetchPopular:`/tv/popular?api_key=${process.env.REACT_APP_API_KEY}&language=en-US&page=1`,
