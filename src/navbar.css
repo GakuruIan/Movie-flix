@@ -1,0 +1,81 @@
+.navbar{
+    position: relative;
+    width: 100%;
+    height: 50px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: calc( 100vw - 230px);
+    padding: 8px 8px;
+}
+.carets{
+    flex: 0.1;
+}
+.carets span{
+    margin: 0px 4px;
+    color:#fff;
+    font-size: 1.3rem;
+}
+.search{
+    flex:0.3;
+}
+.search form{
+    width: 100%;
+    display: flex;
+    padding: 7px 8px;
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 5px;
+}
+.search form input{
+    border: none;
+    width: 90%;
+    background: none;
+    outline: none;
+    margin-right: 4px;
+   
+}
+.search form input::placeholder{
+    color: #222;
+}
+.search form .btn{
+   background: none;
+   outline: none;
+   border: none;
+   font-size: 1.1rem;
+   transition: 0.9s;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color:red;
+}
+.search form .btn:hover{
+    cursor: pointer;
+}
+.profile{
+    flex: 0.2;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.profile span{
+    color:red;
+    font-size:1.2rem;
+    margin-right: 18px;
+}
+.account{
+    position: relative;
+    margin:0px 8px;
+    padding: 0px 4px;
+}
+.account img{
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    object-fit: cover;
+}

@@ -1,0 +1,6 @@
+.movieview{
+    flex: 0.9;
+    position: relative;
+    width: calc(100vw - 240px);
+    height: 100%;
+}

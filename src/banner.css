@@ -1,0 +1,56 @@
+.banner{
+    height:350px;
+    width: 100%;
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to right ,rgba(0, 0, 0, 0.6) 20%,rgba(0, 0, 0, 0.3) 60% ,rgba(0, 0, 0, 0.2) 80%, transparent);
+}
+.content{
+    position: absolute;
+    bottom: 20px;
+    padding: 0px 8px;
+    color:#fff;
+    z-index: 1;
+}
+.content h1{
+    margin-bottom: 14px;
+    font-size: 3rem;
+}
+.content p{
+    font-size: 0,9rem;
+    max-width: 700px;
+}
+.btns{
+    margin-top: 12px;
+    display: flex;
+}
+.btns .btn{
+    width: 120px;
+    margin:0px 8px;
+    padding: 8px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    border: none;
+    background: rgba(218, 15, 15, 0.87);
+    border-radius: 5px;
+    font-size: 1rem;
+    color:#fff;
+    transition: 0.9s;
+    transform: scale(0.9);
+}
+.btns .btn:hover{
+    background: rgba(250, 0, 0, 0.87);
+    cursor: pointer;
+    transform: scale(1);
+}
+.btns .btn span{
+    font-size: 1rem;
+}

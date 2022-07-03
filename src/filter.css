@@ -1,0 +1,29 @@
+.filter{
+    display: flex;
+    width: 100%;
+    position: relative;
+    margin:4px 0px;
+}
+.filter_btns{
+    outline: none;
+    width: 100px;
+    border-radius: 12px;
+    background: none;
+    margin: 0px 6px;
+    padding: 6px 0px;
+    border: none;
+    color:antiquewhite;
+    font-size: 0.9rem;
+    border: 1px solid #242424;
+    transition: 0.9s;
+}
+.active{
+    background: red;
+    color: #fff;
+}
+.filter_btns:hover{
+    border: red;
+    background: red;
+    color: #fff;
+    cursor: pointer;
+}

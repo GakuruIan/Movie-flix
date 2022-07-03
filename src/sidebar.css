@@ -1,0 +1,43 @@
+.sidebar{
+    flex: 0.1;
+  position: relative;
+   min-width: 230px;
+   background-color: #111;
+   height: 100%;
+}
+.wrapper{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    width: 230px;
+    height: 100%;
+}
+.sidebar .logo{
+    height: 50px;
+    padding: 8px 8px;
+    margin-top: 8px;
+    display: flex;
+    margin-bottom: 6px;
+    align-items: center;
+}
+.sidebar h3{
+    color: #ccc;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0px 10px;
+}
+.sidebar p{
+    color:#fff;
+}
+.logo h2{
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+}
+.logo h2 span{
+    color:red;
+}
+.logo img{
+    height: 25px;
+    object-fit: cover;
+}
