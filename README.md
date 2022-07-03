@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+# Movie flix
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a project built using react and TMDB API
 
-## Available Scripts
+## How to get your API
 
-In the project directory, you can run:
+To get your TMDB API key visit https://www.themoviedb.org/
 
-### `npm start`
+Sign up with the TMDB to get your API
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Where to find the API
 
-### `npm test`
+Finished sign up ?.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Click on your profile, on the drop down menu click on settings which should redirect you to settings page.
 
-### `npm run build`
+On settings page, check the sidebar for the API link and click it.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+scroll down the page checking for -> (API Key (v3 auth)) and wala your api key
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### ENDPOINTS
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+MovieFlix provides the endpoints in the Request.js, thou there are a ton on endpoints provided by the api .
 
-### `npm run eject`
+check to add more endpoints -> https://developers.themoviedb.org/3/getting-started/introduction
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
